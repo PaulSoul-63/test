@@ -35,3 +35,49 @@ Console.WriteLine (x);
         
     }
 }
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Entrez un nombre entier n : ");
+        int n = int.Parse(Console.ReadLine());
+
+        int somme = 0;
+        Console.WriteLine("\nLes {0} premiers nombres naturels :", n);
+        for (int i = 1; i <= n; i++)
+        {
+            Console.Write(i + " ");
+            somme += i;
+        }
+
+        Console.WriteLine("\n\nLa somme des {0} premiers nombres naturels est : {1}", n, somme);
+    }
+}
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Entrez un nombre entier pour calculer sa factorielle : ");
+        int n = int.Parse(Console.ReadLine());
+
+        long factorielle = 1;
+
+        for (int i = 1; i <= n; i++)
+        {
+            factorielle *= i;
+        }
+
+        Console.WriteLine("La factorielle de {0} est : {1}", n, factorielle);
+    }
+}
+
+
