@@ -63,11 +63,12 @@ public class Program
 
 
 
+// factorielle nombre 
 using System;
 
-class Program
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
         Console.Write("Entrez un nombre entier pour calculer sa factorielle : ");
         int n = int.Parse(Console.ReadLine());
@@ -82,5 +83,3 @@ class Program
         Console.WriteLine("La factorielle de {0} est : {1}", n, factorielle);
     }
 }
-
-
