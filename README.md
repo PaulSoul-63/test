@@ -38,11 +38,13 @@ Console.WriteLine (x);
 
 
 
+//programme nombre n et leur somme
+
 using System;
 
-class Program
+public class Program
 {
-    static void Main()
+    public static void Main()
     {
         Console.Write("Entrez un nombre entier n : ");
         int n = int.Parse(Console.ReadLine());
@@ -58,6 +60,7 @@ class Program
         Console.WriteLine("\n\nLa somme des {0} premiers nombres naturels est : {1}", n, somme);
     }
 }
+
 
 
 using System;
